@@ -4,27 +4,27 @@ body{
     padding: 0;
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (max-width:320px) {
     /*Small Mobile Screens*/
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 321px) and (max-width:375px) {
     /*Medium Mobile Screens*/
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 376px) and (max-width:425px) {
     /*Large Mobile Screens*/
 }
 
-@media only screen and (min-width: 1440px) {
-    /*Large laptop Screens*/
+@media only screen and (min-width: 426px) and (max-width:768px) {
+    /*Tablet Screens*/
 }
 
-@media only screen and (min-width: 1440px) {
-    /*Large laptop Screens*/
+@media only screen and (min-width: 769px) and (max-width:1024px) {
+    /*Laptop Screens*/
 }
 
 
-@media only screen and (min-width: 1440px) {
-    /*Large laptop Screens*/
+@media only screen and (min-width: 1025px) {
+    /*Desktop Screens*/
 }
