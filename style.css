@@ -6,14 +6,264 @@ body{
 
 @media only screen and (max-width:320px) {
     /*Small Mobile Screens*/
+
+    /*Navbar Begins*/
+    #main-container{}
+
+    #navbar{
+        display: flex;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: solid 3px;
+    }
+
+    .logo{
+
+        margin-top: 2.4%;
+        height: 3vh;
+        width: 20vw;
+        position: absolute;
+        left: 14px;
+        top: 12px;
+        
+    }
+
+    .hambrgr{
+        height: 6vh;
+        width: 10vw;
+        position: absolute;
+        right: 14px;
+        top: 12px;
+
+    }
+
+    .nav-list.active{
+        display: flex;
+    }
+
+    .nav-list{
+
+        display: none;
+        justify-content: space-between;
+        list-style-type: none;
+        width: 100vw;
+        flex-direction: column;
+        margin-top: 9vh;
+        align-items: center;
+        
+        
+    }
+
+    .nav-items{
+        padding: 10px;
+        font-family: 'Karla';
+        font-size: 3.4vw;
+        text-align: center;
+        margin-right: 40px;
+        
+
+
+    }
+
+    li>a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav-btn{
+        font-weight: 500;
+        padding: 10px;
+        font-family: 'Karla';
+        font-size: 3.4vw;
+        border: solid;
+        width: 20vw;
+        border-radius: 3px;
+        text-align: center;
+        margin-right: 40px;
+    
+    }
+
+    /*Navbar Ends*/
 }
 
 @media only screen and (min-width: 321px) and (max-width:375px) {
     /*Medium Mobile Screens*/
+
+    /*Navbar Begins*/
+    #main-container{}
+
+    #navbar{
+        display: flex;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: solid 3px;
+    }
+
+    .logo{
+
+        margin-top: 2.4%;
+        height: 3vh;
+        width: 20vw;
+        position: absolute;
+        left: 14px;
+        top: 10px;
+        
+    }
+
+    .hambrgr{
+        height: 6vh;
+        width: 10vw;
+        position: absolute;
+        right: 16px;
+        top: 14px;
+
+    }
+
+    .nav-list.active{
+        display: flex;
+    }
+
+    .nav-list{
+
+        display: none;
+        justify-content: space-between;
+        list-style-type: none;
+        width: 40%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 9vh;
+        
+        
+    }
+
+    .nav-items{
+        padding: 10px;
+        font-family: 'Karla';
+        font-size: 3.4vw;
+        text-align: center;
+        margin-right: 40px;
+
+
+    }
+
+    li>a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav-btn{
+        font-weight: 500;
+        padding: 10px;
+        font-family: 'Karla';
+        font-size: 3.4vw;
+        border: solid;
+        width: 20vw;
+        border-radius: 3px;
+        text-align: center;
+        margin-right: 40px;
+
+    }
+
+    /*Navbar Ends*/
 }
 
 @media only screen and (min-width: 376px) and (max-width:425px) {
     /*Large Mobile Screens*/
+
+    /*Navbar Begins*/
+    #main-container{}
+
+    #navbar{
+        display: flex;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: solid 3px;
+    }
+
+    .logo{
+
+        margin-top: 2.4%;
+        height: 3vh;
+        width: 20vw;
+        position: absolute;
+        left: 14px;
+        top: 10px;
+        
+    }
+
+    .hambrgr{
+        height: 6vh;
+        width: 10vw;
+        position: absolute;
+        right: 16px;
+        top: 14px;
+
+    }
+
+    .nav-list.active{
+        display: flex;
+    }
+
+    .nav-list{
+
+        display: none;
+        justify-content: space-between;
+        list-style-type: none;
+        width: 40%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 9vh;
+        
+        
+    }
+
+    .nav-items{
+        padding: 10px;
+        font-family: 'Karla';
+        font-size: 3.4vw;
+        text-align: center;
+        margin-right: 40px;
+
+
+    }
+
+    li>a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav-btn{
+        font-weight: 500;
+        padding: 10px;
+        font-family: 'Karla';
+        font-size: 3.4vw;
+        border: solid;
+        width: 20vw;
+        border-radius: 3px;
+        text-align: center;
+        margin-right: 40px;
+
+    }
+
+    /*Navbar Ends*/
 }
 
 @media only screen and (min-width: 426px) and (max-width:768px) {
@@ -227,5 +477,10 @@ body{
     }
 
     /*Navbar Ends*/
+
+    /*Hero Section Starts*/
+
+    
+    /*Hero Section Ends*/
 
 }
